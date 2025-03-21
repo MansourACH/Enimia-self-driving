@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/wafa/ackermann-Autonomous-Car-Simulation/build/lane_detection",
+        "/home/wafa/ackermann-Autonomous-Car-Simulation/install/lane_detection/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/wafa/ackermann-Autonomous-Car-Simulation/build/lane_detection",
+        "/home/wafa/ackermann-Autonomous-Car-Simulation/install/lane_detection/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

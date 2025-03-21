@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/wafa/ackermann-Autonomous-Car-Simulation/install/velodyne_gazebo_plugins/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/wafa/ackermann-Autonomous-Car-Simulation/src/Ackermann-Autonomous-Car-Simulation/velodyne_gazebo_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

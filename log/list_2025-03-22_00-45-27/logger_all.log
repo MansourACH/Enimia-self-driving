@@ -1,0 +1,46 @@
+[0.196s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/achraf/Desktop/enimia_ws']
+[0.197s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/achraf/Desktop/enimia_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71d69a2bb490>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x71d69a2bac50>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x71d69a2bac50>>, mixin_verb=('list',))
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.278s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/achraf/Desktop/enimia_ws'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/Enimia_model) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/Enimia_model) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/Enimia_model) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/Enimia_model) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/Enimia_model) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/Enimia_model) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/Enimia_model) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/Enimia_model) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/Enimia_model) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package '/home/achraf/Desktop/enimia_ws/Enimia_model' with type 'ros.ament_cmake' and name 'Enimia_model'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/lane_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/lane_detection) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/lane_detection) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/lane_detection) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/lane_detection) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/lane_detection) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/lane_detection) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/lane_detection) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/lane_detection) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package '/home/achraf/Desktop/enimia_ws/lane_detection' with type 'ros.ament_python' and name 'lane_detection'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/log) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/achraf/Desktop/enimia_ws/log) ignored
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
